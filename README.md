@@ -30,9 +30,9 @@ Installed copies update automatically on next launch. The `latest.json` and
 
 ## Checking your download (optional)
 
-From version 0.52.0 on, each release lists a SHA-256 fingerprint for its downloads. To check
-a file, run `Get-FileHash` on it in PowerShell (Windows) or `shasum -a 256` on it in Terminal
-(Mac). The result should match the fingerprint on the release page.
+On each release page, under **Assets**, GitHub shows a `sha256` value next to every file. To
+check a download, run `Get-FileHash` on it in PowerShell (Windows) or `shasum -a 256` on it in
+Terminal (Mac). The result should match that value.
 
 ## Terms and privacy
 
