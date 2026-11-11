@@ -63,7 +63,9 @@ your computer. Your battle reports are never uploaded.
 What the app sends over the internet:
 
 - **Sign-in.** When you sign in with Discord we receive your Discord ID, username and profile
-  picture, so the app knows who is signed in. Never your password, email or messages.
+  picture, so the app knows who is signed in. Never your password, email or messages. While
+  you sign in, a scrambled form of your network address is kept for up to 10 minutes to
+  protect the sign-in, then deleted.
 - **Error reports.** When something goes wrong the app can send a short technical error
   message, with a random install ID, so bugs get fixed. Your computer user name is removed
   first and report contents are never included. You can turn this off in Settings.
