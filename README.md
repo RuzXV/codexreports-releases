@@ -38,8 +38,8 @@ Terminal (Mac). The result should match that value.
 
 ### Terms of use
 
-Codex Reports is a free tool that reads the Rise of Kingdoms battle reports already saved on
-your computer and turns them into stats.
+Codex Reports is a free tool that reads the Rise of Kingdoms mail already saved on your
+computer and turns it into stats.
 
 1. **Free to use.** Use it for yourself and your alliance. You can't sell it, rent it or bundle
    it with something you charge for.
@@ -57,15 +57,17 @@ your computer and turns them into stats.
 
 ### Privacy
 
-**Your reports stay on your computer.** Everything the app reads is kept in its own folder on
-your computer. Your battle reports are never uploaded.
+**Your mail and ROK Battles.** Codex Reports works with ROK Battles, a community battle report
+site. The app sends your Rise of Kingdoms mail to ROK Battles, which keeps it so your history
+is saved. Everything else stays on your computer.
 
-What the app sends over the internet:
+What else the app sends over the internet:
 
 - **Sign-in.** When you sign in with Discord we receive your Discord ID, username and profile
   picture, so the app knows who is signed in. Never your password, email or messages. While
   you sign in, a scrambled form of your network address is kept for up to 10 minutes to
   protect the sign-in, then deleted.
+- **Leaderboard.** If you're on the leaderboard, your battle stats are sent to it.
 - **Error reports.** When something goes wrong the app can send a short technical error
   message, with a random install ID, so bugs get fixed. Your computer user name is removed
   first and report contents are never included. You can turn this off in Settings.
@@ -73,9 +75,11 @@ What the app sends over the internet:
   commander names and pictures. Like any download, the servers it contacts can see your IP
   address.
 
-**Nothing is sold or shared.** Your data isn't sold, used for ads or given to anyone else.
+**Nothing is sold.** Your data isn't sold or used for ads. Apart from the mail sent to ROK
+Battles, it isn't given to anyone else.
 
 **Deleting your data.** Uninstall the app and delete its data folder to remove everything on
-your computer. To have your sign-in removed from our side, ask us and it's deleted.
+your computer. To have your sign-in removed from our side, ask us and it's deleted. Mail
+already sent to ROK Battles stays with ROK Battles.
 
 **Contact:** The King's Codex Discord server.
