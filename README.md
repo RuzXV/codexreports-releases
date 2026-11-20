@@ -38,48 +38,54 @@ Terminal (Mac). The result should match that value.
 
 ### Terms of use
 
-Codex Reports is a free tool that reads the Rise of Kingdoms mail already saved on your
-computer and turns it into stats.
+Codex Reports is a free tool that reads the Rise of Kingdoms mail saved on your computer and
+turns it into stats.
 
 1. **Free to use.** Use it for yourself and your alliance. You can't sell it, rent it or bundle
    it with something you charge for.
 2. **Don't take it apart or copy it.** No reverse engineering, decompiling or modifying the app.
    Don't copy its design, screens, code, artwork or icons into another app or website.
-3. **It only reads.** The app reads report files the game has already saved on your computer.
-   It never changes the game, its files or its network traffic, and it doesn't play for you.
+3. **It only reads the game.** The app reads the mail the game has already saved on your computer. It
+   doesn't change how the game works and it doesn't play for you.
 4. **Not official.** Codex Reports isn't made, endorsed or supported by Lilith Games. Rise of
    Kingdoms and its art belong to Lilith Games.
-5. **As is.** It's provided as it is, with no promises. Numbers can be wrong, for example when
+5. **ROK Battles.** Signing in uses a ROK Battles account. ROK Battles is a separate service
+   with its own terms and privacy policy.
+6. **As is.** It's provided as it is, with no promises. Numbers can be wrong, for example when
    the game changes its report format. We're not responsible for decisions made based on them.
-6. **Access can change.** We can change, pause or remove access to the app at any time, for
+7. **Access can change.** We can change, pause or remove access to the app at any time, for
    example for abuse.
-7. **These terms can change.** Using the app after a change means you accept the new version.
+8. **These terms can change.** Using the app after a change means you accept the new version.
 
 ### Privacy
 
-**Your mail and ROK Battles.** Codex Reports works with ROK Battles, a community battle report
-site. The app sends your Rise of Kingdoms mail to ROK Battles, which keeps it so your history
-is saved. Everything else stays on your computer.
+**Your game mail is shared with ROK Battles.** Codex Reports works with ROK Battles, a
+community battle report site. While you are signed in, the game mail saved on your computer
+is shared with ROK Battles, so your reports are kept there too. ROK Battles handles it under
+its own privacy policy.
 
 What else the app sends over the internet:
 
-- **Sign-in.** When you sign in with Discord we receive your Discord ID, username and profile
-  picture, so the app knows who is signed in. Never your password, email or messages. While
-  you sign in, a scrambled form of your network address is kept for up to 10 minutes to
-  protect the sign-in, then deleted.
-- **Leaderboard.** If you're on the leaderboard, your battle stats are sent to it.
+- **Sign-in.** You sign in with your ROK Battles account. We receive the Discord ID linked to
+  that account and the governors bound to it or shared with it (IDs, names and pictures), so
+  the app knows who you are and which governors to show. The app also reads your own
+  governors and totals from ROK Battles. We don't receive your password. Older versions sign
+  in with Discord, and we receive your Discord ID, name and picture.
+- **Leaderboard.** If you choose to share a governor on the leaderboard, its battle stats are
+  sent to it and shown there.
 - **Error reports.** When something goes wrong the app can send a short technical error
   message, with a random install ID, so bugs get fixed. Your computer user name is removed
-  first and report contents are never included. You can turn this off in Settings.
+  first. The message can
+  include ID numbers and item names, such as a governor ID or the name of a bundle. You can
+  turn this off in Settings.
 - **Updates and game data.** The app checks for new versions and downloads game data such as
-  commander names and pictures. Like any download, the servers it contacts can see your IP
-  address.
+  names and pictures. Like any download, the servers it contacts can see your IP address.
 
-**Nothing is sold.** Your data isn't sold or used for ads. Apart from the mail sent to ROK
-Battles, it isn't given to anyone else.
+**Nothing is sold.** Your data isn't sold or used for ads. It is shared with ROK Battles as
+described above and with the services that run the app for us.
 
-**Deleting your data.** Uninstall the app and delete its data folder to remove everything on
-your computer. To have your sign-in removed from our side, ask us and it's deleted. Mail
-already sent to ROK Battles stays with ROK Battles.
+**Deleting your data.** Uninstall the app and delete its data folder to remove what is on
+your computer. To have what we hold about your sign-in removed, ask us and it's deleted. Mail
+already sent to ROK Battles stays with ROK Battles, so ask them about it.
 
 **Contact:** The King's Codex Discord server.
