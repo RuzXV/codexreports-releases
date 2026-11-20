@@ -76,8 +76,10 @@ What else the app sends over the internet:
 - **Error reports.** When something goes wrong the app can send a short technical error
   message, with a random install ID, so bugs get fixed. Your computer user name is removed
   first. The message can
-  include ID numbers and item names, such as a governor ID or the name of a bundle. You can
-  turn this off in Settings.
+  include ID numbers and item names, such as a governor ID or the name of a bundle. If
+  security software blocks or removes part of the app, the message also names the antivirus
+  program on your computer and which of the app's own files was affected, so we can find
+  what sets it off. You can turn this off in Settings.
 - **Updates and game data.** The app checks for new versions and downloads game data such as
   names and pictures. Like any download, the servers it contacts can see your IP address.
 
