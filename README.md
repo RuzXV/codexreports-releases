@@ -23,6 +23,20 @@ Download the `.dmg`, open it and drag Codex Reports into Applications.
 The first time you open it, macOS says it can't check the app. Open **System Settings**,
 **Privacy & Security**, scroll down and click **Open Anyway**.
 
+## Linux (64-bit)
+
+Download the file ending in `.AppImage`. It runs on 64-bit Ubuntu 22.04 or newer and similar systems.
+
+1. Right-click the file, open **Properties** and turn on **Allow executing file as program**
+   (or run `chmod +x` on it in a terminal).
+2. Double-click it.
+
+Keep the file somewhere it can stay, for example your home folder. The app adds itself to
+your app menu and updates this file in place.
+
+If it won't start and says FUSE is missing, run it once with `--appimage-extract-and-run`
+on the end, or install `libfuse2` from your distro.
+
 ## Updates
 
 Installed copies update automatically on next launch. The `latest.json` and
@@ -31,8 +45,8 @@ Installed copies update automatically on next launch. The `latest.json` and
 ## Checking your download (optional)
 
 On each release page, under **Assets**, GitHub shows a `sha256` value next to every file. To
-check a download, run `Get-FileHash` on it in PowerShell (Windows) or `shasum -a 256` on it in
-Terminal (Mac). The result should match that value.
+check a download, run `Get-FileHash` on it in PowerShell (Windows), `shasum -a 256` in
+Terminal (Mac) or `sha256sum` (Linux). The result should match that value.
 
 ## Terms and privacy
 
@@ -46,7 +60,9 @@ turns it into stats.
 2. **Don't take it apart or copy it.** No reverse engineering, decompiling or modifying the app.
    Don't copy its design, screens, code, artwork or icons into another app or website.
 3. **It only reads the game.** The app reads the mail the game has already saved on your computer. It
-   doesn't change how the game works and it doesn't play for you.
+   doesn't change how the game works and it doesn't play for you. If Windows blocks it from reading
+   the game's save folder, the app can ask you once to let it give that folder read access. That
+   is the only change it makes there.
 4. **Not official.** Codex Reports isn't made, endorsed or supported by Lilith Games. Rise of
    Kingdoms and its art belong to Lilith Games.
 5. **ROK Battles.** Signing in uses a ROK Battles account. ROK Battles is a separate service
@@ -60,8 +76,9 @@ turns it into stats.
 ### Privacy
 
 **Your game mail is shared with ROK Battles.** Codex Reports works with ROK Battles, a
-community battle report site. While you are signed in, the game mail saved on your computer
-is shared with ROK Battles, so your reports are kept there too. ROK Battles handles it under
+community battle report site. While you are signed in, all the game mail saved on this computer
+is shared with ROK Battles, so your reports are kept there too. That is every kind of mail the
+game saved, personal messages included, from every account that has played the game here. ROK Battles handles it under
 its own privacy policy.
 
 What else the app sends over the internet:
@@ -69,14 +86,16 @@ What else the app sends over the internet:
 - **Sign-in.** You sign in with your ROK Battles account. We receive the Discord ID linked to
   that account and the governors bound to it or shared with it (IDs, names and pictures), so
   the app knows who you are and which governors to show. The app also reads your own
-  governors and totals from ROK Battles. We don't receive your password. Older versions sign
-  in with Discord, and we receive your Discord ID, name and picture.
+  governors and totals from ROK Battles. We don't receive your password. Your sign-in is
+  kept with a random install ID, and the key ROK Battles gives the app passes through our
+  server on the way. Older versions sign in with Discord, and we receive your Discord ID, name
+  and picture.
 - **Leaderboard.** If you choose to share a governor on the leaderboard, its battle stats are
   sent to it and shown there.
 - **Error reports.** When something goes wrong the app can send a short technical error
-  message, with a random install ID, so bugs get fixed. Your computer user name is removed
-  first. The message can
-  include ID numbers and item names, such as a governor ID or the name of a bundle. If
+  message, with a random install ID, so bugs get fixed. Your computer user name and long ID
+  numbers, such as governor and mail IDs, are removed first. Reports are kept for 30 days and
+  checked by our own monitoring tool. If
   security software blocks or removes part of the app, the message also names the antivirus
   program on your computer and which of the app's own files was affected, so we can find
   what sets it off. You can turn this off in Settings.
