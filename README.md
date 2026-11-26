@@ -99,6 +99,11 @@ What else the app sends over the internet:
   security software blocks or removes part of the app, the message also names the antivirus
   program on your computer and which of the app's own files was affected, so we can find
   what sets it off. You can turn this off in Settings.
+- **Page totals.** From version 1.14.0, with error reports on, the app also sends one count
+  a day for the totals on codexhelper.com: how many battle reports your own accounts hold,
+  the kill points of your own marches, and your home kingdom. It goes with your sign-in so
+  each player counts once. Only the combined totals are shown, never your name or governors.
+  Turning error reports off stops this too.
 - **Updates and game data.** The app checks for new versions and downloads game data such as
   names and pictures. Like any download, the servers it contacts can see your IP address.
 
